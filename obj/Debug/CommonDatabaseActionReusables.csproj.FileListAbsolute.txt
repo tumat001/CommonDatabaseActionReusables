@@ -1,0 +1,17 @@
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\obj\Debug\CommonDatabaseActionReusables.csproj.AssemblyReference.cache
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\obj\Debug\CommonDatabaseActionReusables.csproj.CoreCompileInputs.cache
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\CommonDatabaseActionReusables.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\CommonDatabaseActionReusables.pdb
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Buffers.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Memory.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Buffers.xml
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Memory.xml
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\obj\Debug\CommonDatabaseActionReusables.csproj.CopyComplete
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\obj\Debug\CommonDatabaseActionReusables.dll
+C:\Users\Mat\source\repos\CommonDatabaseActionReusables\CommonDatabaseActionReusables\obj\Debug\CommonDatabaseActionReusables.pdb
