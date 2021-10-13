@@ -89,6 +89,25 @@
     <Compile Include="Code\AnnouncementManager\Configs\AnnouncementDatabasePathConfig.cs" />
     <Compile Include="Code\AnnouncementManager\Exceptions\AnnouncementDoesNotExistException.cs" />
     <Compile Include="Code\AnnouncementManager\Types\Announcement.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\AdvancedGetCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\CategoryExistsAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\CreateCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\DeleteAllCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\DeleteCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\EditCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\Actions\Implementations\GetCategoryAction.cs" />
+    <Compile Include="Code\CategoryManager\CategoryDatabaseManagerHelper.cs" />
+    <Compile Include="Code\CategoryManager\Config\CategoryDatabasePathConfig.cs" />
+    <Compile Include="Code\CategoryManager\Exceptions\CategoryAlreadyExistsException.cs" />
+    <Compile Include="Code\CategoryManager\Exceptions\CategoryDoesNotExistException.cs" />
+    <Compile Include="Code\CategoryManager\Types\Category.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\CreateEntityToCategoryRelationAction.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\EntityExistsAction.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\EntityToCategoryRelationExistsAction.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Config\EntityToCategoryDatabasePathConfig.cs" />
+    <Compile Include="Code\EntityToCategoryManager\EntityToCategoryDatabaseManagerHelper.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Exceptions\EntityToCategoryRelationAlreadyExistsException.cs" />
+    <Compile Include="Code\EntityToCategoryManager\Types\EntityToCategoryDictionary.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseActions\AbstractDatabaseAction.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseActions\AdvancedGetParameters.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseAttributes\DatabaseFieldAttr.cs" />
@@ -105,5 +124,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

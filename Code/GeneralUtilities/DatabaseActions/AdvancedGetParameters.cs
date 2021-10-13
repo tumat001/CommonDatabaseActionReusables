@@ -8,8 +8,14 @@ namespace CommonDatabaseActionReusables.GeneralUtilities.DatabaseActions
     public class AdvancedGetParameters
     {
 
+        /// <summary>
+        /// The number of entries to skip.
+        /// </summary>
         public int Offset { set; get; }
 
+        /// <summary>
+        /// The number of entries to retrieve. Setting this value at 0 or below causes all to be retrieved.
+        /// </summary>
         public int Fetch { set; get; }
 
         public string TextToContain { set; get; }

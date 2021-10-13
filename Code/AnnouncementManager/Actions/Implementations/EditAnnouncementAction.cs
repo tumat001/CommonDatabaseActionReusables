@@ -37,7 +37,7 @@ namespace CommonDatabaseActionReusables.AnnouncementManager.Actions
         /// <returns>True if the announcement was edited successfully, even if <paramref name="builder"/> is set to null.</returns>
         public bool EditAnnouncement(int id, Announcement.Builder builder)
         {
-            bool idExists = new AnnouncementExistsAction(databasePathConfig).TryIfAnnouncementIdExsists(id);
+            bool idExists = new AnnouncementExistsAction(databasePathConfig).IfAnnouncementIdExsists(id);
             if (!idExists)
             {
                 throw new AnnouncementDoesNotExistException(id);
