@@ -101,13 +101,19 @@
     <Compile Include="Code\CategoryManager\Exceptions\CategoryAlreadyExistsException.cs" />
     <Compile Include="Code\CategoryManager\Exceptions\CategoryDoesNotExistException.cs" />
     <Compile Include="Code\CategoryManager\Types\Category.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\CreateEntityToCategoryRelationAction.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\EntityExistsAction.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Actions\Implementations\EntityToCategoryRelationExistsAction.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Config\EntityToCategoryDatabasePathConfig.cs" />
-    <Compile Include="Code\EntityToCategoryManager\EntityToCategoryDatabaseManagerHelper.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Exceptions\EntityToCategoryRelationAlreadyExistsException.cs" />
-    <Compile Include="Code\EntityToCategoryManager\Types\EntityToCategoryDictionary.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\CreateEntityToCategoryRelationAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\DeleteAllRelationAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\DeletePrimaryAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\DeleteEntityToCategoryRelationAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\EditRelationAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\PrimaryExistsAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\RelationExistsAction.cs" />
+    <Compile Include="Code\RelationManager\Actions\Implementations\AdvancedGetRelationsAction.cs" />
+    <Compile Include="Code\RelationManager\Config\RelationDatabasePathConfig.cs" />
+    <Compile Include="Code\RelationManager\RelationDatabaseManagerHelper.cs" />
+    <Compile Include="Code\RelationManager\Exceptions\PrimaryDoesNotExistException.cs" />
+    <Compile Include="Code\RelationManager\Exceptions\RelationAlreadyExistsException.cs" />
+    <Compile Include="Code\RelationManager\Exceptions\RelationDoesNotExistException.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseActions\AbstractDatabaseAction.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseActions\AdvancedGetParameters.cs" />
     <Compile Include="Code\GeneralUtilities\DatabaseAttributes\DatabaseFieldAttr.cs" />
@@ -124,6 +130,8 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Code\RelationManager\Types\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -20,7 +20,7 @@ namespace CommonDatabaseActionReusables.CategoryManager.Exceptions
         public int NonExistingCategoryId { get; }
 
 
-        public CategoryDoesNotExistException(string nonExistingCategoryName = null, int nonExistingCategoryId = -1)
+        internal CategoryDoesNotExistException(string nonExistingCategoryName = null, int nonExistingCategoryId = -1)
         {
             NonExistingCategoryName = nonExistingCategoryName;
             NonExistingCategoryId = nonExistingCategoryId;

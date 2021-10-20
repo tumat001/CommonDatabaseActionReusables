@@ -13,7 +13,7 @@ namespace CommonDatabaseActionReusables.AnnouncementManager.Exceptions
         /// </summary>
         public int NonExistingAnnouncementId { get; }
 
-        public AnnouncementDoesNotExistException(int nonExistingId)
+        internal AnnouncementDoesNotExistException(int nonExistingId)
         {
             NonExistingAnnouncementId = nonExistingId;
         }

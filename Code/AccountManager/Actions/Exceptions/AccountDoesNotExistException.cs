@@ -19,7 +19,7 @@ namespace CommonDatabaseActionReusables.AccountManager.Actions.Exceptions
         public int NonExistingAccountId { get; }
 
 
-        public AccountDoesNotExistException(string nonExistingUsername = null, int nonExistingId = -1)
+        internal AccountDoesNotExistException(string nonExistingUsername = null, int nonExistingId = -1)
         {
             NonExistingAccountUsername = nonExistingUsername;
             NonExistingAccountId = nonExistingId;

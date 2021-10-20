@@ -42,7 +42,7 @@ namespace CommonDatabaseActionReusables.AnnouncementManager.Actions
 
                 using (SqlCommand command = sqlConn.CreateCommand())
                 {
-                    command.CommandText = String.Format("SELECT * FROM (SELECT [{0}], [{1}], [{2}], [{3}], [{4}], [{5}] FROM [{6}] ORDER BY {0} {7} {8}) T {9}",
+                    command.CommandText = String.Format("SELECT * FROM (SELECT [{0}], [{1}], [{2}], [{3}], [{4}], [{5}] FROM [{6}] ORDER BY {0} {7} {8}) T {9} ORDER BY {5} DESC",
                         databasePathConfig.IdColumnName, databasePathConfig.TitleColumnName, databasePathConfig.ContentColumnName, databasePathConfig.MainImageColumnName,
                         databasePathConfig.DateTimeCreatedColumnName, databasePathConfig.DateTimeLastModifiedColumnName, databasePathConfig.AnnouncementTableName,
                         adGetParameter.GetSQLStatementFromOffset(),

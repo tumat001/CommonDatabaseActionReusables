@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using CommonDatabaseActionReusables.GeneralUtilities.PathConfig;
 
-namespace CommonDatabaseActionReusables.EntityToCategoryManager.Config
+namespace CommonDatabaseActionReusables.RelationManager.Config
 {
-    public class EntityToCategoryDatabasePathConfig : DatabasePathConfig
+    public class RelationDatabasePathConfig : DatabasePathConfig
     {
 
         public string EntityIdColumnName { get; }
@@ -18,7 +18,7 @@ namespace CommonDatabaseActionReusables.EntityToCategoryManager.Config
         public string EntityToCategoryTableName { get; }
 
 
-        public EntityToCategoryDatabasePathConfig(string connString, string entityIdColName, string catIdColName, string entityToCatTableName) : base(connString)
+        public RelationDatabasePathConfig(string connString, string entityIdColName, string catIdColName, string entityToCatTableName) : base(connString)
         {
             EntityIdColumnName = entityIdColName;
             CategoryIdColumnName = catIdColName;

@@ -18,7 +18,7 @@ namespace CommonDatabaseActionReusables.AccountManager.Actions.Exceptions
         /// </summary>
         public int AccountId { get; }
 
-        public AccountDisabledFromLoggingInException(string accUsername, int accId = -1)
+        internal AccountDisabledFromLoggingInException(string accUsername, int accId = -1)
         {
             AccountId = accId;
             AccountUsername = accUsername;

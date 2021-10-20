@@ -18,7 +18,7 @@ namespace CommonDatabaseActionReusables.AccountManager.Actions.Exceptions
         /// </summary>
         public int ExistingAccountId { get; }
 
-        public AccountAlreadyExistsException(string existingAccUsername, int existingAccId = -1)
+        internal AccountAlreadyExistsException(string existingAccUsername, int existingAccId = -1)
         {
             ExistingAccountUsername = existingAccUsername;
             ExistingAccountId = existingAccId;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CommonDatabaseActionReusables.CategoryManager.Exceptions
 {
-    class CategoryAlreadyExistsException : ApplicationException
+    public class CategoryAlreadyExistsException : ApplicationException
     {
 
         /// <summary>
@@ -19,7 +19,7 @@ namespace CommonDatabaseActionReusables.CategoryManager.Exceptions
         /// </summary>
         public int ExistingCategoryId { get; }
 
-        public CategoryAlreadyExistsException(string existingName, int existingCategoryId = -1)
+        internal CategoryAlreadyExistsException(string existingName, int existingCategoryId = -1)
         {
             ExistingCategoryId = existingCategoryId;
             ExistingCategoryName = existingName;
